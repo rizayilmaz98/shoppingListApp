@@ -1,0 +1,29 @@
+form{
+    width: 100%;
+    
+}
+button{
+    width: 20%;
+    padding: 6px 20px;
+    color: #FFF7B6;
+    background-color: #093657;
+    font-size: 18px;
+    font-weight: 700;
+    border: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    color:#EFD466;
+    background-color:#03172F;
+}
+input{
+    width: 70%;
+    color: #093657;
+    padding: 6px;
+    font-size: 18px;
+    border: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}

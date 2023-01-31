@@ -1,0 +1,37 @@
+ul{
+    display: inline;
+
+    list-style-type: none;
+}
+li{
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black ;
+
+    margin: 10px 0;
+ 
+
+}
+.changeButton{
+    color: azure;
+    background-color: #093657;
+    padding: 0 25px;
+    border-radius: 10px;
+}
+span{
+    margin:0 10px;
+    cursor: pointer;
+}
+.decreaseSpan:hover{
+    color: red;
+    font-weight: 900;
+}
+.increaseSpan:hover{
+    color: rgb(13, 236, 13);
+    font-weight: 900;
+}
+.cizgili{
+    text-decoration: line-through;
+}
