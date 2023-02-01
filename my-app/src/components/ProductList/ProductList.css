@@ -32,6 +32,15 @@ span{
     color: rgb(13, 236, 13);
     font-weight: 900;
 }
-.cizgili{
+.lineThrough{
     text-decoration: line-through;
+    color: red;
+}
+.lineNone{
+    text-decoration: none;
+}
+.productName{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
 }
